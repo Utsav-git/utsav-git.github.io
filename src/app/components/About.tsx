@@ -16,8 +16,8 @@ const highlights = [
   },
   {
     icon: <Layers className="w-5 h-5 text-cyan-400" />,
-    title: "Full-Stack Exposure",
-    desc: "NestJS, PostgreSQL & MongoDB knowledge enabling seamless collaboration with backend teams.",
+    title: "Full-Stack Delivery",
+    desc: "Building backend features in NestJS with TypeORM & Mongoose across PostgreSQL and MongoDB.",
   },
   {
     icon: <Users className="w-5 h-5 text-violet-400" />,
@@ -89,9 +89,9 @@ export function About() {
                   <span className="text-white font-medium">
                     Frontend Engineer
                   </span>{" "}
-                  with over{" "}
+                  with{" "}
                   <span className="text-cyan-400 font-medium">
-                    3 years of experience
+                    4 years of experience
                   </span>{" "}
                   building scalable and high-performance SaaS web applications.
                   I specialise in
@@ -99,8 +99,8 @@ export function About() {
                     {" "}
                     React.js, Next.js, and TypeScript
                   </span>
-                  , with a strong focus on component-based architectures and
-                  reusable design systems.
+                  , with a strong focus on component-based architectures,
+                  reusable design systems, and responsive UIs.
                 </p>
                 <p
                   className="text-slate-400 leading-relaxed mb-6 text-base"
@@ -108,30 +108,30 @@ export function About() {
                 >
                   My work spans complex domains like{" "}
                   <span className="text-slate-300">
-                    Loan Management, Collections
+                    Loan Management, Collections, and Master Data Management
                   </span>
-                  , and <span className="text-slate-300">HR Analytics</span>,
-                  where I've delivered configuration-driven UIs, advanced form
+                  , where I've delivered configuration-driven UIs, advanced form
                   validation, and cross-framework web component libraries.
                 </p>
                 <p
                   className="text-slate-400 leading-relaxed text-base"
                   style={{ fontFamily: "'Space Grotesk', sans-serif" }}
                 >
-                  Beyond the frontend, I have practical backend knowledge with{" "}
+                  Practical full-stack exposure with{" "}
                   <span className="text-slate-300">
                     NestJS, PostgreSQL, MongoDB
                   </span>
                   , and <span className="text-slate-300">Firebase</span> —
                   giving me the full-stack perspective to collaborate
-                  effectively with any engineering team.
+                  effectively with backend teams and deliver reliable
+                  end-to-end features.
                 </p>
               </div>
             </FadeIn>
 
             <FadeIn delay={0.25}>
               <div className="mt-8 flex flex-wrap gap-3">
-                {["Pune, MH, India", "Open to Remote", "3+ Years Exp"].map(
+                {["Pune, MH, India", "Open to Remote", "4+ Years Exp"].map(
                   (tag) => (
                     <span
                       key={tag}

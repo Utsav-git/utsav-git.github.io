@@ -106,10 +106,10 @@ export function Education() {
                   {[
                     "Computer Science",
                     "Engineering",
-                    "Data Structures",
-                    "Algorithms",
                     "Web Development",
                     "Databases",
+                    "Data Structures",
+                    "Algorithms",
                   ].map((tag) => (
                     <span
                       key={tag}

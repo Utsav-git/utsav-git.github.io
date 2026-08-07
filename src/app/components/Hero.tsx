@@ -133,10 +133,12 @@ export function Hero() {
           style={{ fontFamily: "'Space Grotesk', sans-serif" }}
         >
           Frontend Engineer with{" "}
-          <span className="text-white">3+ years of experience</span> building
-          scalable SaaS applications with{" "}
+          <span className="text-white">4 years of experience</span> building
+          scalable, high-performance SaaS applications with{" "}
           <span className="text-cyan-400">React.js, Next.js & TypeScript</span>.
-          Passionate about performance, clean architecture & great UX.
+          Skilled in component-based architectures, reusable design systems &
+          performance optimization. Full-stack exposure with{" "}
+          <span className="text-cyan-400">NestJS, PostgreSQL & MongoDB</span>.
         </motion.p>
 
         {/* CTA Buttons */}

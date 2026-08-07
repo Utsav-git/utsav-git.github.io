@@ -9,12 +9,10 @@ const projects = [
     subtitle: "Real-time Chat Platform",
     icon: <MessageSquare className="w-6 h-6 text-cyan-400" />,
     description:
-      "A real-time chat platform with topic-based rooms, secure authentication, and live messaging. Built with centralized Redux state management and real-time Firebase synchronization.",
+      "Engineered a real-time chat platform with topic-based rooms, secure authentication, and live messaging supporting concurrent users across multiple rooms.",
     features: [
-      "Topic-based chat rooms with real-time sync",
-      "Secure user authentication & authorization",
-      "Redux-powered centralized state management",
-      "Responsive Material UI with optimized rendering",
+      "Configured centralized state management using Redux with real-time synchronization powered by Firebase, achieving sub-second message delivery latency.",
+      "Crafted responsive UI using Material UI and optimized rendering to prevent unnecessary re-renders during high-frequency message updates.",
     ],
     tags: ["React", "Redux", "Firebase", "Material UI"],
     github: "https://github.com/utsavsalokhe/socio-vert",
@@ -27,12 +25,10 @@ const projects = [
     subtitle: "Full-Stack Recommendation Platform",
     icon: <BookOpen className="w-6 h-6 text-violet-400" />,
     description:
-      "A full-stack platform delivering personalized book suggestions and favorites management. React frontend integrated with a Python Flask REST API backend.",
+      "Created a full-stack recommendation platform delivering personalized book suggestions and favorites management on a dataset of 10K+ titles.",
     features: [
-      "Personalized book recommendation engine",
-      "Favorites management & user preferences",
-      "Context API for global state management",
-      "Flask REST API backend integration via Axios",
+      "Built the frontend in React and integrated REST APIs from a Flask backend serving recommendation logic.",
+      "Structured routing, Context API state management, and responsive UI components using Material UI.",
     ],
     tags: ["React", "Python", "Flask", "Axios", "Material UI", "Context API"],
     github: "https://github.com/utsavsalokhe/book_recommender_frontend",
@@ -193,7 +189,7 @@ export function Projects() {
         <FadeIn delay={0.3}>
           <div className="text-center mt-12">
             <a
-              href="https://github.com/Utsav-git"
+              href="https://github.com/utsavsalokhe"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-slate-600 text-slate-300 hover:border-cyan-400/50 hover:text-cyan-400 transition-all duration-200"

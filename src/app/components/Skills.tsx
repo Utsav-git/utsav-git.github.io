@@ -9,7 +9,7 @@ const skillGroups = [
     skills: ["JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "SQL"],
   },
   {
-    category: "Frameworks & Libraries",
+    category: "Frameworks",
     color: "violet",
     skills: [
       "React.js",
@@ -23,27 +23,37 @@ const skillGroups = [
   {
     category: "Styling",
     color: "pink",
-    skills: ["SASS/SCSS", "Material UI", "Styled Components", "Tailwind CSS"],
+    skills: ["SASS", "Material UI", "Styled Components"],
   },
   {
     category: "State Management",
     color: "cyan",
-    skills: ["Redux Toolkit", "Context API", "React Query"],
+    skills: ["Redux Toolkit", "Context API", "React Hooks (useState, useEffect, useMemo, useCallback)"],
   },
   {
     category: "Testing",
     color: "violet",
-    skills: ["Jest", "React Testing Library"],
+    skills: ["Jest", "React Testing Library", "supertest"],
   },
   {
-    category: "Database & Cloud",
+    category: "Accessibility",
+    color: "violet",
+    skills: ["ARIA", "WCAG basics", "Keyboard Navigation"],
+  },
+  {
+    category: "Database",
     color: "pink",
     skills: ["PostgreSQL", "MongoDB", "Firebase"],
   },
   {
-    category: "Tools & Collaboration",
+    category: "Version Control & CI/CD",
     color: "cyan",
-    skills: ["Git", "GitHub", "GitLab", "JIRA", "Figma", "Agile/Scrum"],
+    skills: ["Git", "GitHub", "GitLab", "GitHub Actions"],
+  },
+  {
+    category: "Collaboration Tools",
+    color: "violet",
+    skills: ["Agile", "Scrum", "JIRA", "Figma"],
   },
 ];
 
@@ -241,7 +251,7 @@ export function Skills() {
               </h3>
               <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto">
                 {[
-                { label: "Years of Experience", value: "3+" },
+                { label: "Years of Experience", value: "4+" },
                 { label: "Projects Shipped", value: "10+" },
                 { label: "Technologies", value: "15+" },
               ].map((stat, i) => (
